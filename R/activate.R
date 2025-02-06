@@ -41,7 +41,7 @@ activity<-function(expr,model,scale=TRUE){
 model=readRDS("data/human_model.rds")
 
 #an example
-expr=read.table("input/counts/GSE143989_counts.txt")
+expr=read.table("input/counts/GSE253089_counts.txt")
 expr=cpm(expr)
 expr=cpm_normalized(expr)
 ac=activity(expr,model,scale = F)
