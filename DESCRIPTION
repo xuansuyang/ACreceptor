@@ -5,6 +5,6 @@ Version: 0.1.0
 Author: Suyang Xuan <xuansuyang@163.com> [aut, cre]
 Maintainer: Suyang Xuan <xuansuyang@163.com>
 Description: Inferring receptor activation scores based on transcriptome data.
-License: MIT
+License: GPL-3 
 Encoding: UTF-8
 LazyData: true
