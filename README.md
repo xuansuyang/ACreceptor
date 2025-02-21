@@ -20,7 +20,6 @@ devtools::install_github("xuansuyang/ACreceptor")
 
 ## Usage
 After installing the package, you can load it and start using the available functions. Here’s a simple example:
-```r
 library(ACreceptor)
 model=readRDS(system.file("extdata", "human_model.rds", package = "ACreceptor"))
 expr=read.table("input/counts/GSE180698_counts.txt",header = T,row.names = 1)
