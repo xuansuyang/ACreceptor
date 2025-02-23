@@ -17,5 +17,6 @@ This function calculates the counts per million (CPM) for a given count matrix.
 It normalizes the count data by scaling each column (sample) based on the total count sum for that column.
 }
 \examples{
+
 expr <- cpm(expr)
 }

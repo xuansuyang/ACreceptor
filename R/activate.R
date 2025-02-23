@@ -9,6 +9,7 @@
 #' @export
 #'
 #' @examples
+#'
 #' expr <- cpm(expr)
 cpm <- function(expr) {
   apply(expr, 2, function(x) { x / sum(x) * 1000000 })
