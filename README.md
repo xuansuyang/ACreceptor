@@ -18,7 +18,7 @@ install.packages("devtools")
 # Install ACreceptor from GitHub
 devtools::install_github("xuansuyang/ACreceptor")
 
-## Usage
+## Bulk RNA-seq 
 After installing the package, you can load it and start using the available functions. Here’s a simple example:
 library(ACreceptor)
 model=readRDS(system.file("extdata", "human_model.rds", package = "ACreceptor"))
